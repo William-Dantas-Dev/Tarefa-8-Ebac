@@ -15,8 +15,8 @@ Funcionalidade: Cadastro no checkout
     Quando o cliente informa um e-mail inválido
     Então o sistema deve exibir a mensagem "Formato de e-mail inválido"
 
-  Esquema do Cenário: Cadastro com campos vazios
-    Quando o cliente informa os seguintes dados:
+  Esquema do Cenário: Cadastro com campos obrigatórios não preenchidos
+    Quando o cliente tenta cadastrar sem preencher um ou mais campos obrigatórios (nome, e-mail e telefone)
     Então o sistema deve exibir a mensagem "Por favor, preencha todos os campos obrigatórios"
 
     Exemplos:
