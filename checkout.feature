@@ -17,7 +17,6 @@ Funcionalidade: Cadastro no checkout
 
   Esquema do Cenário: Cadastro com campos vazios
     Quando o cliente informa os seguintes dados:
-      | nome         | email             | telefone |
     Então o sistema deve exibir a mensagem "Por favor, preencha todos os campos obrigatórios"
 
     Exemplos:
